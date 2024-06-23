@@ -28,6 +28,16 @@ end
 
 ## Usage
 
+### CLI
+
+This package comes with a custom mix task to run the computer with a given program:
+
+```bash
+mix intcode.run "3,0,4,0,99"
+```
+
+### Lib
+
 Here's a basic example of how to use the IntcodeComputer:
 
 ```elixir
